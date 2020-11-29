@@ -9,89 +9,70 @@
 </head>
 
 <body>
-
-
-    <div class="header">
-        <div class="headerTop">
-            <a href="index.html">Главная</a>
-            <a href="contacts.html">Контакты</a>
-        </div>
-        <div class="headerCenter">
-            <h1 class="h1">Task 4</h1>
-
-            <h2 class="h2_contact_us">Contact Us</h2>
-
-            <div class="headerText">
-                <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, porro.
-                </p>
-            </div>
+    <div class="container">
+        <ul class="header"> 
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <div class="contacts-header">
+            <h2 class="heading-contacts">Contact Us</h2>
+            <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, dolore.</p>
         </div>
     </div>
-    <img src="images/callMeBaby.png" alt="callMeBaby" width="350">
-    <div class="contactInfo">
-        <div class="address">
-            <h4 class="h4_header4">Address</h4>
-            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        </div>
-        <div class="phone">
-            <h4 class="h4_header4">Phone</h4>
-
-            <ol>
-                <li>88005553535</li>
-                <li>89995652332</li>
-            </ol>
-        </div>
-        <div class="service">
-            <h4 class="h4_header4">Online service</h4>
-            <ul>
-                <li><a href="https://geekbrains.ru/">GeekBrains</a></li>
-                <li><a href="Niksipeykin@mail.ru" target="_blank">Email</a></li>
-            </ul>
-        </div>
-        <div class="sendMesage">
-            <h4 class="h4_header4">Send us message</h4>
+    <div class="contact_box">
+        <div class="container">
             <form action="#">
+                <div class="contact-info">
+                    <img src="images/callMeBaby.png" alt="callMeBaby" width="350">
+                    <h4 class="heading-mini">Address</h4>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, ipsa?</p>
+                    <h4 class="heading-mini">Phone</h4>
+                    <ol>
+                        <li>88005553535</li>
+                        <li>89995652332</li>
+                    </ol>
+                    <h4 class="heading-mini">Online service</h4>
+                    <ul>
+                        <li><a href="https://geekbrains.ru/">GeekBrains</a></li>
+                        <li><a href="Niksipeykin@mail.ru" target="_blank">Email</a></li>
+                    </ul>
+                </div>
+                <div class="form">
+                    <h4 class="heading-mini">Send us message</h4>
+                        <br>Full Name - <br>
+                        <input type="text" class="messages" placeholder="Jony"><br>
+                        <br>Email - <br>
+                        <input type="email" class="messages" placeholder="@mail"><br>
+                        <br>Message - <br> 
+                        <textarea class="messages" cols="30" rows="5"></textarea><br>
 
-
-                Full Name - <input type="text" class="messages" placeholder="Jony"><br>
-                Email - <input type="email" class="messages" placeholder="@mail"><br>
-                Message - <br> <textarea class="messages" cols="30" rows="5"></textarea><br>
-
-
-                <button class="button_submit" type="submit">Отправить</button>
+                </div>
             </form>
         </div>
-        <div class="map">
-            <script type="text/javascript" charset="utf-8" async
-                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab688a3e152f3f6104a3611fe7c008d880d1de943650b55dc30e53d512c4068aa&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
-        </div>
+            <div class="container">
+                <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab688a3e152f3f6104a3611fe7c008d880d1de943650b55dc30e53d512c4068aa&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true" class="map">
+                </script>
+            </div>
     </div>
-    <h3 class="h3_header">Контакты</h3>
-    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, praesentium?</p>
-
-    <hr>
     <div class="footer">
-        <div class="footerTop">
-            <div class="unknownMember">
-                <ol>
-                    <li>Lorem ipsum dolor sit amet consectetur.</li>
-                    <li>89001111111</li>
-                    <li>abc@mail.ru</li>
-                </ol>
+        <div class="container">
+            <div class="footerTop">
+                <div class="footer_text">
+                    <h4 class="heading-mini">Intersted to woek with our team?</h3>
+                    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, excepturi!</p>            
+                </div>  
             </div>
-
-            <p class="paragraph">Список контактов: </p>
-        </div>
-        <div class="footerBottom">
-            <div class="Marfa">
-                <ul>
-                    <li>Марфа Васильевна</li>
-                    <li>88005553535</li>
-                    <li>Marfa@mail.ru</li>
-                </ul>
-            </div>
-            <div class="copy">
-                <p class="paragraph">Все права защищены &copy; </p>
+            <hr>
+            <div class="footerBottom">
+                    <ul class="footer_info">
+                        <li>Марфа Васильевна</li>
+                        <li>88005553535</li>
+                        <li>Marfa@mail.ru</li>
+                    </ul>
+                <div class="copy">
+                    <p class="text">Все права защищены &copy; </p>
+                </div>
             </div>
         </div>
     </div>

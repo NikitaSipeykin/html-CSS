@@ -8,38 +8,47 @@
     margin: 0 auto;
 }
 
+.header{
+    height: 50px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
 body{
     font-family: sans-serif;
 }
 
-.paragraph{
+.text{
     font-size: 16px;
     line-height: 26px;
     color: #1F3F68;
 }
 
-.h1{
+.top_heading{
     width: 510px;
     font-size: 64px;
     color: #1F3F68;
 }
 
-.headerText{
+.contacts-header .top_info{
     width: 425px;
 }
 
-.h2_contact_us{
+.heading-contacts{
     font-weight: 500;
     font-size: 44px;
     text-align: center;
 }
 
-.h3_header{
+.heading{
   font-size: 36px;
   text-align: center;
 }
 
-.h4_header4{
+.heading-mini{
     font-size: 36px;
     text-align: center;
 }
@@ -61,4 +70,35 @@ body{
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
+}
+
+.card{
+    width: 359px;
+}
+
+.what-we-do .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_text{
+    width: 495px;
+}
+
+.footer_text .heading-mini{
+    width: 340px;
+}
+
+.footer_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_box .container{
+    display: flex;
+}
+
+.form{
+    border: 1px solid #000;
+    border-radius: 10px;
 }
