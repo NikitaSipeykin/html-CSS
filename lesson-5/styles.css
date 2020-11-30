@@ -96,9 +96,14 @@ body{
 
 .contact_box .container{
     display: flex;
+    justify-content: space-between;
 }
 
 .form{
     border: 1px solid #000;
     border-radius: 10px;
+}
+
+.map{
+    flex-grow: 1;
 }
