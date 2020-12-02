@@ -1,0 +1,135 @@
+*{
+   margin: 0; 
+   padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.top{
+    height: 768px;
+    background: linear-gradient(0deg,#ebf3fb 8.84%, rgba(152, 195, 232,0) 31.12%);
+}
+
+.header{
+    height: 50px;
+    display: flex ;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 42px;
+}
+
+.top_info{
+    width: 425px;
+    padding-top: 115px;
+}
+
+.top_button{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+}
+
+.top_heading{
+    width: 510px;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 32px;
+}
+
+.heading-contacts{
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.what-we-do .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 359px;
+}
+
+.contact_box .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form{
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.messages{
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.map{
+    flex-grow: 1;
+}
+
+.button_submit{
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footer_text{
+    width: 495px;
+}
+
+.footer_text .heading-mini{
+    width: 340px;
+}
+
+.footer_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+    color: #1F3F68;
+}
+
+.heading{
+  font-size: 36px;
+  text-align: center;
+}
+
+.heading-mini{
+    font-size: 36px;
+    text-align: center;
+}
