@@ -87,6 +87,12 @@ body{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+
+.card_img_2{
+    position: absolute;
+    top: 14.03px;
 }
 
 .card_box{
@@ -126,14 +132,23 @@ body{
     letter-spacing: 0.05em;
     color: #FFFFFF;
     position: absolute;
+}
+
+.project_top_text{
     right: 64px;
     top: 64px;
+}
+
+.project_bottom_text{
+    left: 32px;
+    top: 32px;
 }
 
 .card_img{
     align-self: center;
     margin-bottom: 51px;
 }
+
 .card_link{
     font-size: 14px;
     line-height: 30px;
@@ -177,6 +192,7 @@ body{
 
 .footer_text{
     width: 495px;
+    color: #FFFFFF;
 }
 
 .footer_text .heading-mini{
@@ -186,6 +202,8 @@ body{
 .footer_info{
     display: flex;
     justify-content: space-between;
+    list-style: none;
+    color: #FFFFFF;
 }
 
 .text{
@@ -194,6 +212,20 @@ body{
     letter-spacing: 0.05em;
     opacity: 0.6;
     color: #1F3F68;
+}
+
+.footerTop_text{
+    color: #FFFFFF;
+}
+
+.copy{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.text_copy{
+    color: #FFFFFF;
+    opacity: 0.4;
 }
 
 .text_project{
@@ -219,4 +251,40 @@ body{
     color: #1F3F68;
     letter-spacing: 0.05em;
     margin-bottom: 14px;
+}
+
+.footer_heading-mini{
+    width: 340.96px;
+    padding-top: 91px;
+    padding-bottom: 32px;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+}
+
+.footerTop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerTop_button{
+    background: #5A98D0;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 15px 80px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 165px;
+    margin-bottom: 170px;
+}
+
+.footerBottom{
+    padding-top: 64px;
+}
+
+.footer{
+    margin-top: 112px;
+    background: #316099
 }
