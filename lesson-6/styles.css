@@ -202,7 +202,22 @@ body{
 .footer_info{
     display: flex;
     justify-content: space-between;
-    list-style: none;
+    list-style-type: none;
+    color: #FFFFFF;
+}
+
+.footer_list1::before{
+    content: 'A. ';
+    color: #FFFFFF;
+}
+
+.footer_list2::before{
+    content: 'T. ';
+    color: #FFFFFF;
+}
+
+.footer_list3::before{
+    content: 'E. ';
     color: #FFFFFF;
 }
 
@@ -283,6 +298,7 @@ body{
 .footerBottom{
     padding-top: 64px;
 }
+
 
 .footer{
     margin-top: 112px;
