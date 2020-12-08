@@ -69,12 +69,6 @@ body{
     margin-bottom: 32px;
 }
 
-.heading-contacts{
-    font-weight: 500;
-    font-size: 44px;
-    text-align: center;
-}
-
 .what-we-do{
     padding-top: 64px;
 }
@@ -160,23 +154,36 @@ body{
 
 .contact_box .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .form{
-    border: 1px solid #000;
+    padding: 56px;
+    width: 540px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
 }
 
 .messages{
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 21px 42px;
+    width: 100%;
+    height: 72px;
     border: 1px solid #356EAD;
     box-sizing: border-box;
     border-radius: 10px;
-    opacity: 0.4;
+    opacity: 0.4
+}
+.text_messages{
+    height: 144px;
+    margin-bottom: 104px;
 }
 
 .map{
-    flex-grow: 1;
+    margin-top: 96px;
 }
 
 .button_submit{
@@ -275,11 +282,18 @@ body{
 }
 
 .heading-mini{
+    padding-bottom: 24px;
+    padding-top: 40px;
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
-    letter-spacing: 0.05em;
     margin-bottom: 14px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+
+.form_heading_mini{
+    padding-top: 0px;
 }
 
 .footer_heading-mini{
@@ -314,6 +328,91 @@ body{
     background: #316099
 }
 
+.contacts-header{
+    background-image: url(images/contact_us.svg);
+    margin-top: 54px;
+    height: 250px;   
+    display: flex;
+    flex-direction: column;   
+}
+
+.heading-contacts{
+    padding-top: 51px;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.header_text{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 16px 180px;
+}
+
+.contact_box{
+    margin-top: 57px;
+}
+
+.contact-info{
+    padding-right: 101px;
+}
+
+.Contact_box-main_page{
+    padding-top: 78px;
+    padding-bottom: 16px;
+}
+
+.contact_adress{
+    width: 299px;
+    height: 53px;
+}
+
+.contact_box_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_info_list{
+    list-style-type: none;
+    padding-bottom: 16px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.contact_info_list:first-child::before{
+    display: block;
+    margin-right: 16px;
+}
+
+.form_text{
+    padding-bottom: 8px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+}
+
+.form_button{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 23px 183px;
+    background: #5A98D0;
+    text-decoration: none;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
 @media (min-width: 425px) and (max-width: 768px){
     .container{
         padding-left: 32px;
