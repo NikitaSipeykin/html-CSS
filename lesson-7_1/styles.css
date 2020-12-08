@@ -413,6 +413,7 @@ body{
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
 }
+
 @media (min-width: 425px) and (max-width: 768px){
     .container{
         padding-left: 32px;
@@ -471,6 +472,46 @@ body{
     .footer_list:last-child::before{
         margin-right: 36px;
     }
+
+    .header{
+        padding-top: 18px;
+    }
+
+    .header_text{
+        padding: 16px 94px;
+    }
+
+    .contact_box {
+        margin-top: 64px;
+    }
+
+    .contact_box .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Contact_box-main_page {
+        padding-top: 0px;
+    }
+
+    .form {
+        padding: 53px;
+        margin-top: 48px;
+        width: 520px;
+    }
+
+    .text_messages{
+        margin-bottom: 93px;
+    }
+
+    .form_button{
+        padding: 23px 228px;
+    }
+
+    .map {
+        margin-top: 64px;
+    }
+    
 }
 
 @media (max-width: 376px){
@@ -604,5 +645,75 @@ body{
     .copy {
         padding-top: 37px;
         padding-bottom: 32px;
+    }
+
+    .header {
+        padding-top: 15px;
+    }
+
+    .contacts-header {
+        margin-top: 30px;
+    }
+
+    .heading-contacts{
+        padding-top: 48px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .header_text {
+        font-size: 16px;
+        line-height: 30px;
+        padding: 32px 0px 61px;
+    }
+
+    .contact_box {
+        margin-top: 46px;
+    }
+
+    .contact_box .container{
+        flex-direction: column;
+    }
+
+    .Contact_box-main_page {
+        padding-top: 0px;
+        padding-bottom: 44px;
+    }
+
+    .contact-info {
+        text-align: left;
+        padding-right: 0px;
+    }
+
+    .heading-mini{
+        padding-top: 32px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        margin-bottom: 7px;
+    }
+
+    .form {
+        text-align: left;
+        padding: 36px;
+        width: auto;
+    }
+
+    .form_heading_mini {
+        padding-top: 0px;
+    }
+
+    .messages {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 30px;
+        padding: 13px 26px;
+    }
+
+    .text_messages {
+        margin-bottom: 46px;
+    }
+
+    .form_button{
+        padding: 15px 105px;
     }
 }
